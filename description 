@@ -1,216 +1,222 @@
-🤖 AI Interviewer
 
-AI Interviewer is an AI-powered technical interview platform designed to simulate realistic interviews, evaluate candidate performance, identify skill gaps, and provide personalized improvement recommendations.
+ # 🤖 AI Interview Agent
 
-🎯 Project Objective
+AI Interview Agent is an AI-powered technical interview command center designed to conduct personalized interviews based on a candidate's actual learning journey, curriculum, skills, and progress.
 
-The goal of AI Interviewer is to help students and job seekers prepare for technical interviews through personalized AI-driven interview sessions.
+Instead of asking the same predefined questions to every candidate, the platform uses candidate-specific learning data and curriculum topics to create a more relevant and adaptive interview experience.
 
-The platform analyzes the candidate's profile, skills, target role, and interview responses to create an adaptive interview experience.
+---
 
-🚀 Key Features
+## 🎯 Project Objective
 
-1. 📊 Candidate Dashboard
+The main objective of AI Interview Agent is to simulate realistic technical interviews while understanding what a candidate has actually learned.
 
-The dashboard provides a complete overview of the candidate's interview preparation journey.
+The platform helps evaluate:
 
-It displays:
+- Technical knowledge
+- Problem-solving ability
+- Curriculum understanding
+- Interview readiness
+- Learning progress
+- Skill gaps
 
-- Overall interview score
-- Technical knowledge score
-- Communication score
-- Problem-solving score
-- Recent interview performance
-- Skill progress
-- Recommended actions
-- Interview history
+The system then uses these insights to provide meaningful feedback and recommendations for improvement.
 
-2. 👤 Candidate Profile
+---
 
-Candidates can provide:
+## 🚀 Key Features
 
-- Name
-- Education
-- Degree
+### 📊 AI Interview Command Center
+
+The Command Center provides a centralized overview of the interview system.
+
+It displays important metrics such as:
+
+- Total candidates
+- Interview readiness
+- Topics covered
+- Interview progress
+- Technical score
+- Candidate performance
+
+Example dashboard metrics:
+
+- **3** synthetic candidates
+- **72%** average interview readiness
+- **8** curriculum topics
+- Interview progress tracking
+- Technical score tracking
+
+---
+
+### 👥 Candidate Management
+
+The Candidates section contains synthetic candidate profiles used for the interview process.
+
+Each candidate profile can include:
+
+- Candidate name
+- Candidate ID
 - Skills
-- Programming languages
+- Learning journey
 - Projects
-- Certifications
-- Target job role
-- Experience level
+- Curriculum progress
+- Interview readiness
+- Technical performance
 
-This information is used to personalize the interview.
+Example candidate:
 
-3. 🎯 Interview Setup
+**Maya Okoro**  
+`candidate_001`
 
-Candidates can configure an interview based on:
+The candidate's profile and learning history are used to personalize the interview.
 
-- Target role
-- Difficulty level
-- Interview type
-- Interview duration
-- Technical or behavioral focus
+---
 
-4. 🤖 AI-Powered Interview
+### 📚 Curriculum-Aware Interviews
 
-The AI interviewer dynamically generates questions based on the candidate's profile and previous responses.
+The platform connects interviews with the candidate's actual curriculum and learning journey.
 
-Instead of asking a fixed set of questions, the AI can generate relevant follow-up questions based on the candidate's answers.
+The system can track topics such as:
 
-5. 💻 Coding Assessment
+- Programming Fundamentals
+- Data Structures
+- Algorithms
+- Databases
+- APIs
+- JavaScript
+- React
+- AI/ML Fundamentals
 
-For technical roles, candidates can solve coding problems using an integrated coding environment.
+This allows the AI interviewer to ask questions that are relevant to the candidate's learning progress.
 
-The system can evaluate:
+---
 
-- Logic
-- Correctness
-- Code quality
-- Efficiency
-- Edge cases
-- Problem-solving approach
+### 🤖 Adaptive AI Interview
 
-6. 📈 Performance Analytics
+The core feature of the platform is the AI-powered interview experience.
 
-After each interview, the platform generates performance insights.
+Instead of following a fixed questionnaire, the AI can adapt the interview according to the candidate's responses.
+
+The interview flow is:
+
+Candidate Profile
+→ Learning Journey
+→ Curriculum
+→ Question Generation
+→ Candidate Answer
+→ AI Evaluation
+→ Adaptive Follow-up
+→ Performance Analysis
+
+If the candidate demonstrates strong understanding, the interview can move toward deeper questions.
+
+If the candidate struggles with a topic, the system can identify the knowledge gap and adjust the questioning accordingly.
+
+---
+
+### 🧠 AI-Based Evaluation
+
+The candidate's responses can be evaluated across multiple dimensions:
+
+- Technical correctness
+- Conceptual understanding
+- Problem-solving ability
+- Answer relevance
+- Depth of knowledge
+- Communication clarity
+
+These evaluations can be combined to generate an overall technical performance score.
+
+---
+
+### 📈 Interview Readiness
+
+The dashboard provides an interview-readiness indicator to help understand how prepared a candidate is.
+
+The readiness score can be calculated using factors such as:
+
+- Curriculum completion
+- Technical performance
+- Previous interview results
+- Skill proficiency
+- Question difficulty
+- Knowledge gaps
+
+---
+
+### 📊 Performance Analytics
+
+The dashboard can provide insights into candidate performance.
 
 Example metrics:
 
-Category| Score
-Technical Knowledge| 82%
-Problem Solving| 78%
-Communication| 85%
-Answer Relevance| 88%
-Overall Score| 83%
+| Metric | Example |
+|---|---:|
+| Interview Readiness | 72% |
+| Technical Score | 84% |
+| Curriculum Topics | 8 |
+| Candidates | 3 |
 
-7. 🧠 Skill Gap Analysis
+The analytics help identify areas where candidates are performing well and areas that require improvement.
 
-The system compares the candidate's current skills with the skills required for the selected role.
+---
 
-It identifies:
+### 🎯 Skill Gap Identification
 
-- Strong skills
-- Moderate skills
-- Skills requiring improvement
-- Missing skills
+After analyzing interview responses and curriculum progress, the system can identify areas where the candidate needs improvement.
 
-8. 📚 Personalized Learning Plan
+For example:
 
-Based on interview performance and skill gaps, AI recommends topics and areas that the candidate should practice.
+- Strong: JavaScript fundamentals
+- Moderate: React
+- Needs improvement: Data Structures
+- Needs improvement: System Design
 
-9. 📝 AI Interview Report
+The identified gaps can then be used to recommend specific learning topics.
 
-After completing an interview, the candidate receives a detailed report containing:
+---
+
+### 📝 Interview Report
+
+After an interview, the system can generate a structured report containing:
 
 - Overall score
+- Technical score
+- Problem-solving score
+- Communication assessment
 - Strengths
 - Weaknesses
-- Technical feedback
-- Communication feedback
-- Improvement suggestions
-- Recommended learning topics
+- Skill gaps
+- Recommended topics
 
-10. 🏆 Achievements
+This gives candidates actionable feedback instead of only providing a numerical score.
 
-The platform can provide achievement badges for:
+---
 
-- Completing the first interview
-- Maintaining practice streaks
-- Improving interview scores
-- Completing coding challenges
-- Achieving high scores
+## 🔄 Complete Workflow
 
-🔄 How the System Works
-
+```text
 Candidate Profile
        ↓
-Target Role Selection
+Learning Journey
        ↓
-Interview Configuration
+Curriculum Analysis
        ↓
-AI Generates Questions
+Interview Setup
        ↓
-Candidate Answers
+AI Question Generation
        ↓
-AI Evaluates Response
+Candidate Answer
+       ↓
+AI Evaluation
        ↓
 Adaptive Follow-up Question
-       ↓
-Interview Completion
        ↓
 Performance Analysis
        ↓
 Skill Gap Detection
        ↓
-Personalized Learning Recommendations
-
-🖥️ Dashboard Navigation
-
-AI INTERVIEWER
-
-├── 🏠 Dashboard
-├── 👤 My Profile
-├── 🎯 Interview Setup
-├── 🤖 AI Interview
-├── 💻 Coding Practice
-├── 📊 Analytics
-├── 🧠 Skill Gap
-├── 📚 Learning Plan
-├── 🏆 Achievements
-├── 📝 Interview History
-└── ⚙️ Settings
-
-💡 What Makes AI Interviewer Different?
-
-AI Interviewer is more than a chatbot that asks interview questions.
-
-It creates a complete interview preparation cycle:
-
-Personalization → Interview → Evaluation → Analytics → Skill Gap → Learning Plan → Improvement
-
-The AI adapts the interview based on the candidate's responses and provides actionable feedback instead of only giving a final score.
-
-🛠️ Suggested Technology Stack
-
-Frontend
-
-- React / Next.js
-- Tailwind CSS
-- JavaScript / TypeScript
-
-Backend
-
-- Node.js
-- API routes / Express
-
-AI
-
-- LLM API
-- Prompt engineering
-- AI-based response evaluation
-
-Database
-
-- Supabase / Firebase
-
-Development
-
-- Git
-- GitHub
-- Vercel
-
-🎯 Target Users
-
-- College students
-- Freshers
-- Job seekers
-- Internship applicants
-- Developers preparing for technical interviews
-
-🌟 Expected Impact
-
-AI Interviewer helps candidates practice interviews in a structured environment, understand their weaknesses, track their progress, and prepare more effectively for real-world technical interviews.
-
-📌 Project Summary
-
-«AI Interviewer is an intelligent interview preparation platform that conducts personalized, adaptive interviews and converts candidate responses into actionable performance insights, skill-gap analysis, and personalized learning recommendations.»
+Interview Readiness Score
+       ↓
+Personalized Recommendations
